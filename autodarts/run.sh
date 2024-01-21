@@ -11,4 +11,4 @@ if [ ! -e "~/.config/autodarts" ]; then
 fi
 
 # run autodarts
-/autodarts
+/usr/bin/autodarts
