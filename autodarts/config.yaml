@@ -1,0 +1,22 @@
+name: "Autodarts"
+description: "Autodarts Board Manager"
+version: "1.0.0"
+slug: "autodarts"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: application
+video: true
+#ingress: true
+#ingress_port: 3180
+#ingress_stream: true
+map:
+  - addon_config:rw
+ports:
+  3180/tcp: 3180
+ports_description:
+  3180/tcp: Autodarts http port
