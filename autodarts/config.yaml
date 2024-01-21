@@ -17,5 +17,3 @@ ports:
 ports_description:
   3180/tcp: Http Server Autodarts Board Manager
 webui: "http://[HOST]:[PORT:3180]"
-map:
-  addon_config: rw
