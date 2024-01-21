@@ -1,6 +1,6 @@
 name: "Autodarts"
 description: "Autodarts Board Manager"
-version: "1.0.6"
+version: "1.0.7"
 slug: "autodarts"
 init: false
 arch:
@@ -18,4 +18,4 @@ ports_description:
   3180/tcp: Http Server Autodarts Board Manager
 webui: "http://[HOST]:[PORT:3180]"
 map:
-  addon_config: rw
+  addon_config:rw
