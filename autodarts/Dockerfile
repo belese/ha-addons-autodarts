@@ -2,7 +2,9 @@ ARG BUILD_FROM
 FROM $BUILD_FROM
 
 # Install autodarts
-#RUN ln -s /config /root/.config
+COPY run.sh /
+RUN chmod a+x /run.sh
+
 RUN bash <(curl -sL get.autodarts.io) -n -u
- 
-CMD [ "/root/.local/bin/autodarts" ]
+
+CMD [ "/run.sh" ]
