@@ -1,6 +1,6 @@
 name: "Autodarts"
 description: "Autodarts Board Manager"
-version: "1.0.9"
+version: "1.0.10"
 slug: "autodarts"
 init: false
 arch:
