@@ -3,12 +3,12 @@
 mkdir -p .config
 
 
-ls /config
-ls .config
+echo "$(ls /config)"
+echo "$(ls .config)"
 #mount config volume if not exist
 if [ ! -e ".config/autodarts" ]; then
     ln -s /config .config/autodarts
 fi
 
 # run autodarts
-/root/.local/bin/autodarts
+/usr/bin/autodarts
